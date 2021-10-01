@@ -1,0 +1,44 @@
+/*
+
+Order of inheritance chain:
+    1. Class
+    2. ID
+    3. Inline
+
+*/
+
+
+/* Style paragraph 2 */
+#para2 {
+    font-style: italic;
+}
+
+
+/* Style division containing iframe */
+.Tool {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    border-style: dashed;
+    border-color: darkmagenta;
+    border-width: 5px;
+    margin: auto;
+    width: 50%;
+    padding-top: 40%;
+}
+#Tool_Div {
+    padding-bottom: 1%;
+}
+
+/* Style iframe in tool division */
+.Tool #song{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    border: 15px green ridge;
+}
