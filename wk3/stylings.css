@@ -1,0 +1,80 @@
+/* Center the division containing logo */
+.imageDiv {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 40%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+/* Shrink image */
+#logo {
+
+    /* Round edges */
+    border-radius: 8px;
+
+    /* Responsively stlye size & center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Style ordered list */
+#myGoals {
+    list-style-type: lower-latin;
+}
+
+
+/* Style unordered list */
+#myLikes {
+    list-style-type: circle;
+}
+
+
+/* Style table */
+#myTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/* Style table header and data */
+#myTable thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: black;
+    font-weight: bold;
+}
+
+#myTable td,
+#myTable th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style even rows from table, and highlight on hover */
+#tableBody tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+#tableBody tr:hover {
+    background-color: lightsteelblue;
+}
+
+
+/* Footer */
+#myTable tfoot {
+    background-color: lightseagreen;
+}
+
+#myTable tfoot:hover {
+    background-color: lightslategray;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="test/css" href="stylings.css">
+    <title>Fun paperwork</title>
+</head>
+
+
+<body>
+
+    <!-- Division containing form -->
+    <div class="paperwork1">
+
+        <!-- Form element -->
+        <h2>Example Form</h2>
+        <form method=post action="#">
+
+            <!-- Name and Email inputs -->
+            <p>First Name: <input type="text" name="firstName" placeholder="Please Enter your First Name " size="25"></p>
+            <p>Email: <input type="email" name="email" placeholder="example@gmail.com " size="25"></p>
+
+            <!-- Labeled radio buttons -->
+            <p>Would you like to subscribe to our news letter?</p>
+            <input type="radio" id="subscribeMe" name="subscribeNews" value="Yes">
+            <label for="subscribeNews">Yes</label><br>
+
+            <input type="radio" id="noSubscribe" name="subscribeNews" value="No">
+            <label for="subscribeNews">No</label><br>
+            <br>
+
+            <!-- Text area -->
+            <textarea name="Describtion" maxlength="100" wrap placeholder="Tell us about yourself (max characters = 100) " size=40></textarea>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <p>Please select the languages you know:</p>
+            <input type="checkbox" id="java" name="java" value="Java">
+            <label for="java">Java</label>
+
+            <input type="checkbox" name="python" id="python" value="Python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" id="cpp" name="cpp" value="C++">
+            <label>C++</label>
+            <br><br>
+
+            <!-- Add a dropdown menu -->
+            <p>What is your favourite database?</p>
+            <select>
+                <option value="MySQL">MySQL
+                <option value="NoSQL">NoSQL
+                <option value="Graph">Graph
+            </select>
+            <br><br>
+
+            <!-- Submit and reset buttons -->
+            <input type="submit" value="Submit"><input type="reset" value="Reset">
+        </form>
+    </div>
+
+</body>
+
+</html>
