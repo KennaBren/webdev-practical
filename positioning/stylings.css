@@ -1,0 +1,115 @@
+/* Style the bottom right box and its text */
+.bottomBox {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    border: 3px solid midnightblue;
+    background-color: #73AD21;
+}
+.bottomBox p {
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+}
+
+/*
+    Style stick box 
+        - Cross browser support is shite
+*/
+.stickBox{
+    width: 140px;
+    height: 75px;
+    top: 10px;
+    right: 16px;
+    position: sticky;
+    background-color: maroon;
+    border: 2px solid lightskyblue;
+}
+
+.stickBox p{
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    color: limegreen;
+}
+
+/* Style box1 container */
+.box1 {
+    position: relative;
+    width: 400px;
+    height: auto;
+    border: darkred;
+    border-width: 5px;
+    border-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Style paragraphs wthin the box1 container */
+.box1 p{
+    border-width: 5px;
+    border-style: solid;
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.box1 p:hover {
+    background-color: lightpink;
+    transform: scale(1.12);
+    font-weight: bold;
+    font-style: italic;
+    border-style: dotted;
+    border-width: medium;
+    height: 60px;
+}
+
+.box1 #para1{
+    border-color: black;
+}
+.box1 #para2{
+    border-color: darkgreen;
+}
+.box1 #para3{
+    border-color: blue;
+    margin-bottom: 15px;
+}
+
+
+/* 
+
+    Style meme container: Box, Image then Textbox
+        - New concept of tranform: translate();
+
+*/
+.box2{
+    position: relative;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: maroon;
+    height: 275px;
+    width: 350px;
+}
+
+.box2 #panda{
+    max-width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textBox{
+    position: absolute;
+    color: white;
+    width: 40%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
